@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## Black Pearl ############## -->
+
+  <CONN_InstallBlackPearl.label>вживить черную жемчужину</CONN_InstallBlackPearl.label>
+  <CONN_InstallBlackPearl.description>Вживляет Черную Жемчужину.</CONN_InstallBlackPearl.description>
+  <CONN_InstallBlackPearl.jobString>Вживляет глаз</CONN_InstallBlackPearl.jobString>
+
+
+  <!-- ############## Hover Feet ############## -->
+
+  <CONN_InstallHoverFeet.label>установить парящую стопу</CONN_InstallHoverFeet.label>
+  <CONN_InstallHoverFeet.description>Установить парящую стопу.</CONN_InstallHoverFeet.description>
+  <CONN_InstallHoverFeet.jobString>Устанавливает протез</CONN_InstallHoverFeet.jobString>
+
+
+  <!-- ############## Greenthumb ############## -->
+
+  <CONN_InstallGreenthumb.label>установить модуль растениеводства</CONN_InstallGreenthumb.label>
+  <CONN_InstallGreenthumb.description>Установить модуль растениеводства.</CONN_InstallGreenthumb.description>
+  <CONN_InstallGreenthumb.jobString>Устанавливает ручной модуль</CONN_InstallGreenthumb.jobString>
+
+
+  <!-- ############## Compression Jaw ############## -->
+
+  <CONN_InstallCompressionJaw.label>вживить гидравлическую челюсть</CONN_InstallCompressionJaw.label>
+  <CONN_InstallCompressionJaw.description>Вживить гидравлическую челюсть.</CONN_InstallCompressionJaw.description>
+  <CONN_InstallCompressionJaw.jobString>Вживляет гидравлическую челюсть</CONN_InstallCompressionJaw.jobString>
+
+
+  <!-- ############## Compression Stomach ############## -->
+
+  <CONN_InstallCompressionStomach.label>пересадить гидравлический желудок</CONN_InstallCompressionStomach.label>
+  <CONN_InstallCompressionStomach.description>Пересадить гидравлический желудок.</CONN_InstallCompressionStomach.description>
+  <CONN_InstallCompressionStomach.jobString>Пересаживает гидравлический желудок</CONN_InstallCompressionStomach.jobString>
+
+
+  <!-- ############## Flashlight ############## -->
+
+  <CONN_InstallFlashLight.label>установить фонарик</CONN_InstallFlashLight.label>
+  <CONN_InstallFlashLight.description>Установить фонарик.</CONN_InstallFlashLight.description>
+  <CONN_InstallFlashLight.jobString>Устанавливает фонарик</CONN_InstallFlashLight.jobString>
+
+  <CONN_RemoveFlashlight.label>снять фонарик</CONN_RemoveFlashlight.label>
+  <CONN_RemoveFlashlight.description>Снять фонарик.</CONN_RemoveFlashlight.description>
+  <CONN_RemoveFlashlight.jobString>Снимает фонарик</CONN_RemoveFlashlight.jobString>
+
+
+  <!-- ############## Musclewire ############## -->
+
+  <CONN_InstallMusclewire.label>имплантировать усиленное мышечное волокно</CONN_InstallMusclewire.label>
+  <CONN_InstallMusclewire.description>Имплантировать усиленное мышечное волокно.</CONN_InstallMusclewire.description>
+  <CONN_InstallMusclewire.jobString>Иплантирует усиленное мышечное волокно</CONN_InstallMusclewire.jobString>
+
+  <CONN_RemoveMuscleWire.label>удалить усиленное мышечное волокно</CONN_RemoveMuscleWire.label>
+  <CONN_RemoveMuscleWire.description>Удалить усиленное мышечное волокно.</CONN_RemoveMuscleWire.description>
+  <CONN_RemoveMuscleWire.jobString>Удалялет усиленное мышечное волокно</CONN_RemoveMuscleWire.jobString>
+
+
+</LanguageData>

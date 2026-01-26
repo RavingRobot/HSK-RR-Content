@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.UseSetting">
+    <modId>HSKRRContent.Settings</modId>
+    <key>IgufRaidDays</key>
+    <defaultValue>570</defaultValue>
+    <apply>
+        <Operation Class="PatchOperationReplace">
+            <xpath>Defs/FactionDef[defName="IgufHMC"]/earliestRaidDays</xpath>
+            <value>
+                <earliestRaidDays>{IgufRaidDays}</earliestRaidDays>
+            </value>
+        </Operation>
+    </apply>
+</Operation>
+
+</Patch>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XmlExtensions.SettingsMenuDef>
+        <defName>HSKRRContent_Settings</defName>
+        <modId>HSKRRContent.Settings</modId>
+        <tKey>HSKRRContent_MainTitle</tKey>
+        <label>HSK RR Content</label>
+		<settings>
+		
+			<li Class="XmlExtensions.Setting.Text">
+				<text>HSK RR Content</text>
+				<anchor>Middle</anchor>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>AddingOrganTransplantsForAndroids</key>
+				<label>Add organ transplants for androids? It is recommended to use this patch instead of the similar one in Watcher Content</label>
+					<tKey>AddingOrganTransplantsForAndroids</tKey>
+				<defaultValue>false</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>HackSkynet</key>
+				<label>Add Skynet Terminator hack to operations to make him a colonist?</label>
+					<tKey>HackSkynet</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			<li Class="XmlExtensions.Setting.GapLine"></li>
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<!-- Hardcore SK -->
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Patches - Hardcore SK</text>
+				<anchor>Middle</anchor>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>DisablingSkillDegradationBySkillDecay</key>
+				<label>Disable skill degradation by "Skill Decay" Core_SK feature?</label>
+					<tKey>DisablingSkillDegradationBySkillDecay</tKey>
+				<defaultValue>false</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>EnablingSomeMeatInPizzaNPelmeni</key>
+				<label>Enable some meat in pizza and pelmeni?</label>
+					<tKey>EnablingSomeMeatInPizzaNPelmeni</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>EnablingPelmeniHediff</key>
+				<label>Enable pelmeni effect?</label>
+					<tKey>EnablingPelmeniHediff</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			<li Class="XmlExtensions.Setting.GapLine"></li>
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<!-- HSK More Content -->
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Patches - HSK More Content</text>
+				<anchor>Middle</anchor>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>EnablingSomeMeatInChebupek</key>
+				<label>Enable some meat in chebupek? Do not enable if you do not have HSK more content!</label>
+					<tKey>EnablingSomeMeatInChebupek</tKey>
+				<defaultValue>false</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Days before I.G.U.F. can come (Do not change if you do not have HSK more content!):</text>
+					<tKey>IgufRaidDays</tKey>
+			</li>
+			<li Class="XmlExtensions.Setting.Slider">
+				<key>IgufRaidDays</key>
+				<defaultValue>570</defaultValue>
+				<min>300</min>
+				<max>570</max>
+				<decimals>0</decimals>
+				<label>{IgufRaidDays}</label>
+			</li>	
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			<li Class="XmlExtensions.Setting.GapLine"></li>
+			<li Class="XmlExtensions.Setting.Gap"></li>
+
+			<!-- Restart -->
+			
+			<li Class="XmlExtensions.Setting.ResetSettings">
+				<label>Reset Settings</label>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>All options require restart to apply!</text>
+					<tKey>RestartToApply</tKey>
+			</li>
+		
+		</settings>
+    </XmlExtensions.SettingsMenuDef>
+</Defs>

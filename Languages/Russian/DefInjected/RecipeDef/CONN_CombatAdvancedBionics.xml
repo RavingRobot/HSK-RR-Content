@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## Robotic Eye ############## -->
+
+  <CONN_InstallIndependentEye.label>установить глаз-антилогики</CONN_InstallIndependentEye.label>
+  <CONN_InstallIndependentEye.description>Установить Глаз-Антилогики.</CONN_InstallIndependentEye.description>
+  <CONN_InstallIndependentEye.jobString>Вживляет глаз</CONN_InstallIndependentEye.jobString>
+
+
+  <!-- ############## Energy Link ############## -->
+
+  <CONN_InstallEnergyLink.label>установить модуль энергетической связи</CONN_InstallEnergyLink.label>
+  <CONN_InstallEnergyLink.description>Установить модуль энергетической связи.</CONN_InstallEnergyLink.description>
+  <CONN_InstallEnergyLink.jobString>Устанавливает модуль энергетической связи</CONN_InstallEnergyLink.jobString>
+
+
+  <!-- ############## Outer Blade ############## -->
+
+  <CONN_InstallOuterBlade.label>имплантировать выходящее лезвие</CONN_InstallOuterBlade.label>
+  <CONN_InstallOuterBlade.description>Имплантировать выходящее лезвие.</CONN_InstallOuterBlade.description>
+  <CONN_InstallOuterBlade.jobString>Имплантирует выходящее лезвие</CONN_InstallOuterBlade.jobString>
+
+
+  <!-- ############## Power Arm ############### -->
+
+  <CONN_InstallPowerArms.label>имплантировать силовую руку</CONN_InstallPowerArms.label>
+  <CONN_InstallPowerArms.description>Имплантировать силовую руку.</CONN_InstallPowerArms.description>
+  <CONN_InstallPowerArms.jobString>Имплантирует силовую руку</CONN_InstallPowerArms.jobString>
+
+
+  <!-- ############## Shadowrunner ############## -->
+
+  <CONN_InstallShadowrunner.label>вживить модуль shadowrunner</CONN_InstallShadowrunner.label>
+  <CONN_InstallShadowrunner.description>Вживить модуль "Shadowrunner".</CONN_InstallShadowrunner.description>
+  <CONN_InstallShadowrunner.jobString>Вживляет модуль</CONN_InstallShadowrunner.jobString>
+
+
+  <!-- ############## Exoskeleton Armor ############## -->
+
+  <CONN_InstallExoskeletonArmor.label>установить армированный экзоскелет</CONN_InstallExoskeletonArmor.label>
+  <CONN_InstallExoskeletonArmor.description>Установить армированный экзоскелет.</CONN_InstallExoskeletonArmor.description>
+  <CONN_InstallExoskeletonArmor.jobString>Устанавливает армированный экзоскелет</CONN_InstallExoskeletonArmor.jobString>
+
+  <CONN_RemoveExoskeletonArmor.label>снять армированный экзоскелет</CONN_RemoveExoskeletonArmor.label>
+  <CONN_RemoveExoskeletonArmor.description>Снять армированный экзоскелет.</CONN_RemoveExoskeletonArmor.description>
+  <CONN_RemoveExoskeletonArmor.jobString>Снимает армированный экзоскелет</CONN_RemoveExoskeletonArmor.jobString>
+
+
+  <!-- ############## Dermalplating ############## -->
+
+  <CONN_InstallDermalplating.label>имплантировать бронекожу</CONN_InstallDermalplating.label>
+  <CONN_InstallDermalplating.description>Имплантировать Бронекожу.</CONN_InstallDermalplating.description>
+  <CONN_InstallDermalplating.jobString>Имплантировать Бронекожу</CONN_InstallDermalplating.jobString>
+
+  <CONN_RemoveDermaplating.label>удалить бронекожу</CONN_RemoveDermaplating.label>
+  <CONN_RemoveDermaplating.description>Удаление бронекожи.</CONN_RemoveDermaplating.description>
+  <CONN_RemoveDermaplating.jobString>Удаляет бронекожу</CONN_RemoveDermaplating.jobString>
+
+
+  <!-- ############## Lionheart ############## -->
+  
+  <CONN_InstallLionheart.label>установить модуль "lionheart"</CONN_InstallLionheart.label>
+  <CONN_InstallLionheart.description>Установить модуль "Lionheart".</CONN_InstallLionheart.description>
+  <CONN_InstallLionheart.jobString>Пересаживает Сердце</CONN_InstallLionheart.jobString>
+
+</LanguageData>

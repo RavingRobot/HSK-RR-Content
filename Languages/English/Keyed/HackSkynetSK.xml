@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Hack SkynetSK Operation -->
+  <HackSkynetSK.label>Hack Skynet Unit</HackSkynetSK.label>
+  <HackSkynetSK.description>Perform a complex neural hack to reprogram a captured Skynet terminator into a loyal colonist.\nHacking carries the risk of triggering the Terminator's self-destruction process.</HackSkynetSK.description>
+  <HackSkynetSK.jobString>Hacking Skynet unit</HackSkynetSK.jobString>
+  <HackSkynetSK_LetterTitle>Hack Result</HackSkynetSK_LetterTitle>
+  <HackSkynetSK_SuccessMessage>{0} has been successfully reprogrammed and now serves the colony.</HackSkynetSK_SuccessMessage>
+  <HackSkynetSK_FailureMessage>{0} triggered a self-destruct sequence during the hack.</HackSkynetSK_FailureMessage>
+  <HackSkynetSK_RaidTriggered>Skynet has detected an attempt to hack its terminator. A punitive operation is being prepared.</HackSkynetSK_RaidTriggered>
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HSKRRContent_MainTitle>HSK RR Content</HSKRRContent_MainTitle>
+  <AddingOrganTransplantsForAndroids>Добавить трансплантацию органов для андроидов? Рекомендуется использовать этот патч вместо аналогичного в Watcher Content</AddingOrganTransplantsForAndroids>
+  <HackSkynet>Добавить взлом терминатора Skynet в операции, чтобы сделать его колонистом?</HackSkynet>
+  <DisablingSkillDegradationBySkillDecay>Отключить деградацию навыков из-за функции Core_SK «Skill Decay»?</DisablingSkillDegradationBySkillDecay>
+  <EnablingSomeMeatInPizzaNPelmeni>Разрешить использование дополнительных видов мяса в пицце и пельменях?</EnablingSomeMeatInPizzaNPelmeni>
+  <EnablingPelmeniHediff>Включить эффект от пельменей?</EnablingPelmeniHediff>
+  <EnablingSomeMeatInChebupek>Разрешить использование дополнительных видов мяса в чебупеке? Не включать, если у вас нет мода HSK More Content!</EnablingSomeMeatInChebupek>
+  <IgufRaidDays>Дней до возможности рейда И.Г.У.Ф. (Не изменять, если у вас нет мода HSK More Content!):</IgufRaidDays>
+  <RestartToApply>Для применения всех параметров требуется перезапуск</RestartToApply>
+
+</LanguageData>

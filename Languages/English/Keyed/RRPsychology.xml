@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PsychologyTabLabel>Psychology</PsychologyTabLabel>
+  <Psychology_NoRemovableTraits>No psychological traits can be treated.</Psychology_NoRemovableTraits>
+  <Psychology_TraitRemoved>{0} has overcome their {1}.</Psychology_TraitRemoved>
+  <NotApplicable>Not applicable.</NotApplicable>
+</LanguageData>

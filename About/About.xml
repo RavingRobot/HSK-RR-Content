@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>HSK RR Content</name>
+	<author>RavingRobot</author>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<packageId>ravingrobot.HSKRRContent</packageId>
+	<description>
+	Чутка патчей для HSK и сабмодов.
+	Возможность установки имплантов андроидам из "HSK Watcher content" от Watcher https://github.com/Watcher011/HSK.Watcher.content (Мне не нравятся остальные его патчи :D)
+	
+	-----
+	
+	A lot of HSK and submods patches.
+	Transplants for Androids from "HSK Watcher content" by Watcher https://github.com/Watcher011/HSK.Watcher.content (I don't like his other patches :D)
+	</description>
+	<modDependencies>
+		<li>
+            <packageId>skyarkhangel.HSK</packageId>
+            <displayName>Core SK</displayName>
+            <downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+        </li>
+		<li>
+            <packageId>skyarkhangel.skynet</packageId>
+            <displayName>Skynet</displayName>
+            <downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+        </li>
+		<li>
+		
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+        </li>
+        <li>
+            <packageId>Imranfish.XMLExtensions</packageId>
+            <displayName>XML Extensions</displayName>
+            <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+        </li>
+	</modDependencies>
+	<loadBefore>
+		<li>trinity.runtimegcupdated</li>
+		<li>dubwise.dubsperformanceanalyzer.dev</li>
+		<li>neronix17.wikirim</li>
+		<li>taranchuk.performanceoptimizer</li>
+		<li>krkr.rocketman</li>
+	</loadBefore>
+	<loadAfter>
+		<li>skyarkhangel.HSK</li>
+		<li>skyarkhangel.skynet</li>
+		<li>brrainz.harmony</li>
+		<li>Imranfish.XMLExtensions</li>
+		<li>arpomo6.hmc.project</li>
+		<li>ChJees.Androids</li>
+		<li>doug.conn</li>
+	</loadAfter>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>

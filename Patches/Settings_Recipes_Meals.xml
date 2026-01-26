@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Core SK-->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>EnablingSomeMeatInPizzaNPelmeni</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>
+		
+		<Operation  Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakePizza"]/ingredients</xpath>
+			<value>
+				<ingredients>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Flour</li>
+							</thingDefs>
+						</filter>
+						<count>0.1</count>
+					</li>
+					<li>
+						<filter>
+							<categories>
+								<li>MeatRaw</li>
+								<li>FungusPlantRaw</li>
+							</categories>
+						</filter>
+						<count>0.6</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Cheese</li>
+								<li>AgedCheese</li>
+							</thingDefs>
+						</filter>
+						<count>0.3</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>RawTomatoes</li>
+							</thingDefs>
+						</filter>
+						<count>0.6</count>
+					</li>
+				</ingredients>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakePizza"]/fixedIngredientFilter</xpath>
+			<value>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Flour</li>
+						<li>Cheese</li>
+						<li>AgedCheese</li>
+						<li>RawTomatoes</li>
+						<li>Meat_ThingDefFishSduiggles</li>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_prime</li>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+					</thingDefs>
+					<categories>
+						<li>FungusPlantRaw</li>
+					</categories>
+				</fixedIngredientFilter>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakePelmeni"]/ingredients</xpath>
+			<value>
+				<ingredients>
+					<li>
+						<filter>
+							<categories>
+								<li>MeatRaw</li>
+							</categories>
+						</filter>
+						<count>0.7</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Flour</li>
+							</thingDefs>
+						</filter>
+						<count>0.05</count>
+					</li>
+				</ingredients>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakePelmeni"]/fixedIngredientFilter</xpath>
+			<value>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Flour</li>
+						<li>Meat_ThingDefFishSduiggles</li>
+						<li>Meat_Elephant</li>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_raw</li>
+						<li>MetalCannedMeat_prime</li>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakePelmeniBulk"]/ingredients</xpath>
+			<value>
+				<ingredients>
+					<li>
+						<filter>
+							<categories>
+								<li>MeatRaw</li>
+							</categories>
+						</filter>
+						<count>3.5</count>
+					</li>
+					<li>
+						<filter>
+							<thingDefs>
+								<li>Flour</li>
+							</thingDefs>
+						</filter>
+						<count>0.25</count>
+					</li>
+				</ingredients>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="MakePelmeniBulk"]/fixedIngredientFilter</xpath>
+			<value>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Flour</li>
+						<li>Meat_ThingDefFishSduiggles</li>
+						<li>Meat_Elephant</li>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_raw</li>
+						<li>MetalCannedMeat_prime</li>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+			</value>
+		</Operation>
+		
+    </caseTrue>
+	
+</Operation>
+
+<!--HSK More Content-->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>EnablingSomeMeatInChebupek</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/RecipeDef[defName="Cook_HMC_Chebupek"]/fixedIngredientFilter</xpath>
+			<value>
+				<fixedIngredientFilter>
+					<thingDefs>
+						<li>Flour</li>
+						<li>Meat_ThingDefFishSduiggles</li>
+						<li>Meat_Elephant</li>
+						<li>Meat_Muffalo</li>
+						<li>MetalCannedMeat_raw</li>
+						<li>MetalCannedMeat_prime</li>
+						<li>Meat_Human</li>
+						<li>Meat_Megaspider</li>
+					</thingDefs>
+				</fixedIngredientFilter>
+			</value>
+		</Operation>
+		
+    </caseTrue>
+	
+</Operation>
+
+</Patch>

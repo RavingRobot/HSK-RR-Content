@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>AddingOrganTransplantsForAndroids</key>
+    <defaultValue>false</defaultValue>
+    <caseTrue>		
+	
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/recipes</xpath>
+		<value>
+			
+			<!-- Core_SK -->
+			<!--Bionic-->
+			<li>InstallBionicEye</li>	<!-- Вживить бионический глаз -->
+			<li>InstallBionicHand</li>	<!-- Имплантировать бионическую кисть -->
+			<li>InstallBionicFoot</li>	<!-- Имплантировать бионическую ступню -->
+			<li>InstallBionicArm</li>	<!-- Имплантировать бионическую руку -->
+			<li>InstallBionicLeg</li>	<!-- Вживить бионическую ногу -->
+			<li>InstallBionicSpine</li>	<!-- Имплантировать бионический имплантант спинного мозга -->
+			<li>InstallBionicJaw</li>	<!-- Имплантировать бионическую челюсть -->
+			<li>InstallBionicEar</li>	<!-- Имплантировать бионическое ухо -->
+			<li>InstallBionicNeck</li>	<!-- Имплантировать бионическую шею -->
+			<li>InstallBrainStimulator</li>	<!-- Имплантировать стимулятор мозга -->
+			<li>RemoveBrainStimulator</li>	<!-- Удалить стимулятор мозга -->
+			<li>InstallAIChip</li>	<!-- Имплантировать в мозг ЧИП-ИИ -->
+			<li>RemoveAIChip</li>	<!-- Удалить ЧИП-ИИ -->
+			<li>InstallBionicTongue</li>	<!-- Имплантировать бионический язык -->
+			
+			<!--Synthetic Organs-->			
+			<li>InstallBionicLung</li>
+			<li>InstallBionicStomach</li>
+			<li>InstallBionicLiver</li>
+			<li>InstallBionicKidney</li>
+			<li>InstallBionicHeart</li>
+			<li>InstallMuscleStimulatorArms</li>	<!-- Установить стимулятор мышц в плечо -->
+			<li>InstallMuscleStimulatorLegs</li>	<!-- Установить стимулятор мышц в бедро -->
+			
+			<!--Bionic ribcage-->
+			<li>InstallMedicalRib</li>	<!-- Вживить медицинское ребро -->
+			<li>RemoveMedicalRib</li>	<!-- Удалить медицинское ребро -->
+			<li>InstallDruggedRib</li>	<!-- Вживить стимулирующее ребро -->
+			<li>RemoveDruggedRib</li>	<!-- Удалить стимулирующее ребро -->
+			<li>InstallAdrenalineRib</li>	<!-- Вживить адреналиновое ребро -->
+			<li>RemoveAdrenalineRib</li>	<!-- Удалить адреналиновое ребро -->
+			<li>InstallPainkillerRib</li>	<!-- Вживить обезболивающее ребро -->
+			<li>RemovePainkillerRib</li>	<!-- Удалить обезболивающее ребро -->
+			<li>InstallHeaterRib</li>	<!-- Вживить нагревательное ребро -->
+			<li>RemoveHeaterRib</li>	<!-- Удалить нагревательное ребро -->
+			<li>InstallCoolerRib</li>	<!-- Вживить охлаждающее ребро -->
+			<li>RemoveCoolerRib</li>	<!-- Удалить охлаждающее ребро -->
+			<li>InstallCoagulatorRib</li>	<!-- Вживить гемокоагуляторное ребро -->
+			<li>RemoveCoagulatorRib</li>	<!-- Удалить гемокоагуляторное ребро -->
+
+
+			<!--Bones-->
+			<li>InstallArtificialBone_Small</li>
+			<li>InstallArtificialBone_Medium</li>
+			<li>InstallArtificialBonePiece_Large</li>
+
+			<!--Cybernetics-->
+			<li>InstallGTHeart</li>	<!-- Установить кибернетическое сердце -->
+			<li>InstallGTLung</li>	<!-- Установить кибернетическое лёгкое -->
+			<li>InstallGTKidney</li>	<!-- Установить кибернетическую почку -->
+			<li>InstallGTLiver</li>	<!-- Установить кибернетическую печень -->
+			<li>InstallGTStomach</li>	<!-- Установить кибернетический желудок -->
+			<li>InstallGTEar</li>	<!-- Установить кибернетическое ухо -->
+			<li>InstallArchotechEye</li>	<!-- Установить кибернетический глаз -->
+			<li>InstallArchotechArm</li>	<!-- Установить кибернетическую руку -->
+			<li>InstallGTHand</li>	<!-- Установить кибернетическую кисть -->
+			<li>InstallArchotechLeg</li>	<!-- Установить кибернетическую ногу -->
+			<li>InstallGTFoot</li>	<!-- Установить кибернетическую стопу -->
+			<li>InstallGTDentures</li>	<!-- Установить кибернетическую челюсть -->
+			<li>InstallGTSpine</li>	<!-- Установить кибернетический позвоночник -->
+			<li>InstallGTNeck</li>	<!-- Имплантировать кибернетическую шею -->
+
+			<!--Exoskeleton-->
+			<li>InstallExoskeletonSuit</li>	<!-- Имплантировать экзоскелет -->
+			<li>RemoveExoskeletonSuit</li>	<!-- Удалить экзоскелет -->
+			<li>InstallProtectiveExoskeleton</li>	<!-- Имплантировать защитный экзоскелет -->
+			<li>RemoveProtectiveExoskeleton</li>	<!-- Удалить защитный экзоскелет -->
+
+			<!--EPOE Organic optimizer-->
+			<li>OrganicOptimizing</li>	<!-- Ввести органические оптимизирующие наноботы -->
+			<li>InstinctOptimizingEyes</li>	<!-- Ввести в глаз оптимизирующих инстинкты наноботов -->
+			<li>InstinctOptimizingHands</li>	<!-- Ввести в руку оптимизирующих инстинкты наноботов -->
+			<li>InstinctOptimizingFoot</li>	<!-- Ввести в ногу оптимизирующих инстинкты наноботов -->
+
+			<!--EPOE Glitterworld implants-->
+			<li>InstallTacticalCorneaImplant</li>	<!-- Имплантировать тактический имплантат роговицы -->
+			<li>RemoveTacticalCorneaImplant</li>	<!-- Удалить тактический имплантат роговицы -->
+			<li>InstallConstructorCore</li>	<!-- Имплантировать чип строительства -->
+			<li>RemoveConstructorCore</li>	<!-- Удалить чип строительства -->
+			<li>InstallFarmerCore</li>	<!-- Имплантировать чип растениеводства -->
+			<li>RemoveFarmerCore</li>	<!-- Удалить чип растениеводства -->
+			<li>InstallMinerCore</li>	<!-- Имплантировать чип горного дела -->
+			<li>RemoveMinerCore</li>	<!-- Удалить чип горного дела -->
+			<li>InstallDoctorCore</li>	<!-- Имплантировать чип медицины -->
+			<li>RemoveDoctorCore</li>	<!-- Удалить чип медицины -->
+			<li>InstallDiplomatCore</li>	<!-- Имплантировать чип дипломатии -->
+			<li>RemoveDiplomatCore</li>	<!-- Удалить чип дипломатии -->
+			<li>InstallAuxiliaryAI_Sharpshooter</li>	<!-- Имплантировать чип стрелка -->
+			<li>RemoveAuxiliaryAI_Sharpshooter</li>	<!-- Удалить чип стрелка -->
+			<li>InstallAuxiliaryAI_Commando</li>	<!-- Имплантировать чип коммандос -->
+			<li>RemoveAuxiliaryAI_Commando</li>	<!-- Удалить чип коммандос -->
+			<li>InstallAuxiliaryAI_Brawler</li>	<!-- Имплантировать чип бойца -->
+			<li>RemoveAuxiliaryAI_Brawler</li>	<!-- Удалить чип бойца -->
+			<li>InstallAIPersonaCore</li>
+
+			<!--EPOE Surgery-->
+			<li>RepairBurn</li>
+			<li>RepairCut</li>
+			<li>RepairSurgicalCut</li>
+			<li>RepairScratch</li>
+			<li>RepairBite</li>
+			<li>RepairStab</li>
+			<li>RepairGunshot</li>
+			<li>RepairFrostbite</li>
+			<li>RepairChemicalBurn</li>
+			<li>RepairShredded</li>
+			<li>RepairCrush</li>
+			<li>RepairCrack</li>
+			<li>RepairBruise</li>			
+			<li>RepairBrainBurn</li>
+			<li>RepairBrainCut</li>
+			<li>RepairBrainSurgicalCut</li>
+			<li>RepairBrainScratch</li>
+			<li>RepairBrainBite</li>
+			<li>RepairBrainStab</li>
+			<li>RepairBrainGunshot</li>
+			<li>RepairBrainFrostbite</li>
+			<li>RepairBrainChemicalBurn</li>
+			<li>RepairBrainShredded</li>
+			<li>RepairBrainCrush</li>
+			<li>RepairBrainCrack</li>
+			<li>RepairBrainBruise</li>
+
+			<!--DE Surgery-->
+			<li>RepairCosmeticEar</li>
+			<li>RepairCosmeticNose</li>
+			<li>RepairFinger</li>
+			<li>RepairToe</li>
+			<li>CureChronicBadBack</li>
+			<li>CureChronicFrail</li>
+			<li>CureChronicCataract</li>
+			<li>CureChronicHearingLoss</li>
+			<li>CureChronicDementia</li>
+			<li>CureMuscleParasites</li>
+			<li>CureGutWorms</li>
+			<li>CureChronicAlzheimers</li>
+			<li>CureChronicAsthma</li>
+			<li>CureChronicHeartArteryBlockage</li>	
+
+			<!--Cure poison-->
+			<li>EnterBasicAntidote</li>
+			
+			<!--Misc-->
+			<li>CurePoisonScratch</li>
+			<li>CurePoisonBite</li>
+			<li>CurePoisonArrow</li>
+
+			<!--Misc-->
+			<li>InjectMedicine</li>
+			<li>InstallJoywire</li>
+			<li>InstallPainstopper</li>
+			<li>InstallPowerClaw</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+			
+			<!-- CyberneticOrganism_SK -->
+			<li MayRequire="doug.conn">CONN_InstallIndependentEye</li>
+			<li MayRequire="doug.conn">CONN_InstallEnergyLink</li>
+			<li MayRequire="doug.conn">CONN_InstallOuterBlade</li>
+			<li MayRequire="doug.conn">CONN_InstallPowerArms</li>
+			<li MayRequire="doug.conn">CONN_InstallShadowrunner</li>
+			<li MayRequire="doug.conn">CONN_InstallExoskeletonArmor</li>
+			<li MayRequire="doug.conn">CONN_InstallDermalplating</li>
+			<li MayRequire="doug.conn">CONN_InstallLionheart</li>
+			<li MayRequire="doug.conn">CONN_InstallZoom</li>
+			<li MayRequire="doug.conn">CONN_InstallEnergyFist</li>
+			<li MayRequire="doug.conn">CONN_InstallElasticAchilles</li>
+			<li MayRequire="doug.conn">CONN_InstallCyclopsVisor</li>
+			<li MayRequire="doug.conn">CONN_InstallLaserDetection</li>
+			<li MayRequire="doug.conn">CONN_InstallSensoricEarside</li>
+			<li MayRequire="doug.conn">CONN_InstallBerserkerChip</li>
+			<li MayRequire="doug.conn">CONN_InstallMindtwist</li>
+			<li MayRequire="doug.conn">CONN_InstallMuseChip</li>
+			<li MayRequire="doug.conn">CONN_InstallNeuroEnhancer</li>
+			<li MayRequire="doug.conn">CONN_InstallCombatAI</li>
+			<li MayRequire="doug.conn">CONN_InstallEnergeticLung</li>
+			<li MayRequire="doug.conn">CONN_InstallEnergeticKidney</li>
+			<li MayRequire="doug.conn">CONN_InstallEnergyCore</li>
+			<li MayRequire="doug.conn">CONN_InstallAutonomicViruskiller</li>
+			<li MayRequire="doug.conn">CONN_InstallAurum</li>
+			<li MayRequire="doug.conn">CONN_InstallBlackPearl</li>
+			<li MayRequire="doug.conn">CONN_InstallHoverFeet</li>
+			<li MayRequire="doug.conn">CONN_InstallGreenthumb</li>
+			<li MayRequire="doug.conn">CONN_InstallCompressionJaw</li>
+			<li MayRequire="doug.conn">CONN_InstallCompressionStomach</li>
+			<li MayRequire="doug.conn">CONN_InstallFlashLight</li>
+			<li MayRequire="doug.conn">CONN_InstallMusclewire</li>
+			<li MayRequire="doug.conn">CONN_RemoveExoskeletonArmor</li>
+			<li MayRequire="doug.conn">CONN_RemoveDermaplating</li>
+			<li MayRequire="doug.conn">CONN_RemoveLaserDetection</li>
+			<li MayRequire="doug.conn">CONN_RemoveBerserkerChip</li>
+			<li MayRequire="doug.conn">CONN_RemoveMindTwist</li>
+			<li MayRequire="doug.conn">CONN_RemoveMuseChip</li>
+			<li MayRequire="doug.conn">CONN_RemoveNeuroEnchancer</li>
+			<li MayRequire="doug.conn">CONN_RemoveCombatAI</li>
+			<li MayRequire="doug.conn">CONN_RemoveFlashlight</li>
+			<li MayRequire="doug.conn">CONN_RemoveMuscleWire</li>
+			
+		</value>
+	</Operation>
+	
+	<!-- Bionic -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicEye"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicHand"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidHand</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicFoot"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidFoot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicEar"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSoundSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicJaw"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidJaw</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicSpine"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSpine</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicArm"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidShoulder</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicTongue"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>VoxEmitter</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicLeg"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidLeg</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallPowerClaw"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidHand</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBrainStimulator"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallAIChip"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicNeck"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidNeck</li>
+		</value>
+	</Operation>
+	
+	<!-- Bionic Rib -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallMedicalRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallDruggedRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallAdrenalineRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallPainkillerRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallHeaterRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallCoolerRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallCoagulatorRib"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation> 
+	
+	<!-- ArtificialBone -->
+	 <Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallArtificialBone_Small"]/appliedOnFixedBodyParts</xpath>
+		<value>
+            <li>AndroidClavicle</li>
+			<li>AndroidRibcage</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallArtificialBone_Medium"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidFemur</li>
+			<li>AndroidTibia</li>
+            <li>AndroidHumerus</li>
+			<li>AndroidRadius</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallArtificialBonePiece_Large"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSternum</li>
+			<li>AndroidPelvis</li>
+		</value>
+	</Operation>
+	
+	<!-- Cybernetic -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTEar"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSoundSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallArchotechEye"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallArchotechArm"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidShoulder</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallArchotechLeg"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidLeg</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTHeart"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTLung"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLung</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTKidney"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTLiver"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLiver</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTStomach"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidPowerSource</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTHand"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidHand</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTFoot"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidFoot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTDentures"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidJaw</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTSpine"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSpine</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallGTNeck"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidNeck</li>
+		</value>
+	</Operation> 
+	 
+	<!-- InstallExoskeletonSuit -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallExoskeletonSuit"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidThorax</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallProtectiveExoskeleton"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidThorax</li>
+		</value>
+	</Operation>
+	
+	<!-- GlitterworldImplants -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallTacticalCorneaImplant"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallConstructorCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallFarmerCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallMinerCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallMinerCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallDoctorCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallDiplomatCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallAuxiliaryAI_Sharpshooter"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallAuxiliaryAI_Commando"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallAuxiliaryAI_Brawler"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallAIPersonaCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	
+	<!-- Special -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallDeathAcidifier"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidThorax</li>
+		</value>
+	</Operation> 
+	
+	<!-- Synthetic -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicLung"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLung</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicStomach"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidPowerSource</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicLiver"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLiver</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicKidney"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallBionicHeart"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallJoywire"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallPainstopper"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallMuscleStimulatorArms"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidShoulder</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="InstallMuscleStimulatorLegs"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidLeg</li>
+		</value>
+	</Operation>
+	
+	<!-- CyberneticOrganism_SK -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallIndependentEye"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallEnergyLink"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSpine</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallOuterBlade"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidArm</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallPowerArms"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidShoulder</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallShadowrunner"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLung</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallExoskeletonArmor"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidThorax</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallDermalplating"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidThorax</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallLionheart"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallZoom"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallEnergyFist"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidHand</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallElasticAchilles"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidFoot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallCyclopsVisor"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallLaserDetection"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSoundSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallSensoricEarside"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSoundSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallBerserkerChip"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallMindtwist"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallMuseChip"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallNeuroEnhancer"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallCombatAI"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>ArtificialAndroidBrain</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallEnergeticLung"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLung</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallEnergeticKidney"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallEnergyCore"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>CoolantPump</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallAutonomicViruskiller"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSyntheticLiver</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallAurum"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallBlackPearl"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSightSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallHoverFeet"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidFoot</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallGreenthumb"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidFinger</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallCompressionJaw"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidJaw</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallCompressionStomach"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidPowerSource</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallFlashLight"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidSoundSensor</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName="CONN_InstallMusclewire"]/appliedOnFixedBodyParts</xpath>
+		<value>
+			<li>AndroidLeg</li>
+		</value>
+	</Operation>
+	
+    </caseTrue>
+</Operation>
+
+</Patch>
+

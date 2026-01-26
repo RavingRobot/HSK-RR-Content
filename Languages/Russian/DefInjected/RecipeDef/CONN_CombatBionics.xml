@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## Zoom ############## -->
+
+  <CONN_InstallZoom.label>установить трансфокатор</CONN_InstallZoom.label>
+  <CONN_InstallZoom.description>Установить Трансфокатор.</CONN_InstallZoom.description>
+  <CONN_InstallZoom.jobString>Вживляет Глаз</CONN_InstallZoom.jobString>
+
+
+  <!-- ############## Energy Fist ############## -->
+
+  <CONN_InstallEnergyFist.label>вживить энергетическую кисть</CONN_InstallEnergyFist.label>
+  <CONN_InstallEnergyFist.description>Установить энергетическую кисть.</CONN_InstallEnergyFist.description>
+  <CONN_InstallEnergyFist.jobString>Устанавливает энергетическую кисть</CONN_InstallEnergyFist.jobString>
+
+
+  <!-- ############## Elastic Achilles ############## -->
+
+  <CONN_InstallElasticAchilles.label>имплантировать синтетические сухожилия</CONN_InstallElasticAchilles.label>
+  <CONN_InstallElasticAchilles.description>Имплантировать синтетические сухожилия.</CONN_InstallElasticAchilles.description>
+  <CONN_InstallElasticAchilles.jobString>Имплантирует синтетические сухожилия</CONN_InstallElasticAchilles.jobString>
+
+
+  <!-- ############## Cyclops Visor ############## -->
+
+  <CONN_InstallCyclopsVisor.label>вживить визор циклоп</CONN_InstallCyclopsVisor.label>
+  <CONN_InstallCyclopsVisor.description>Вживить визор "Циклоп".</CONN_InstallCyclopsVisor.description>
+  <CONN_InstallCyclopsVisor.jobString>Вживляет визор</CONN_InstallCyclopsVisor.jobString>
+
+
+  <!-- ############## Laser Detection ############## -->
+
+  <CONN_InstallLaserDetection.label>вживить лазерный детектор</CONN_InstallLaserDetection.label>
+  <CONN_InstallLaserDetection.description>Вживить лазерный детектор.</CONN_InstallLaserDetection.description>
+  <CONN_InstallLaserDetection.jobString>Вживляет лазерный детектор</CONN_InstallLaserDetection.jobString>
+
+  <CONN_RemoveLaserDetection.label>снять лазерный детектор</CONN_RemoveLaserDetection.label>
+  <CONN_RemoveLaserDetection.description>Снять лазерный детекто.</CONN_RemoveLaserDetection.description>
+  <CONN_RemoveLaserDetection.jobString>Снимает лазерный детектор</CONN_RemoveLaserDetection.jobString>
+
+
+  <!-- ############## Sensoric Earside  ############## -->
+
+  <CONN_InstallSensoricEarside.label>установить сенсорную оболочку</CONN_InstallSensoricEarside.label>
+  <CONN_InstallSensoricEarside.description>Установить сенсорную оболочку.</CONN_InstallSensoricEarside.description>
+  <CONN_InstallSensoricEarside.jobString>Устанавливает оболочку уха</CONN_InstallSensoricEarside.jobString>
+
+
+</LanguageData>

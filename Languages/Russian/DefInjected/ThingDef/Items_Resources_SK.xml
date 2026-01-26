@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <Silver.label>серебряная руда</Silver.label>
+    <Gold.label>золотая руда</Gold.label>
+	<SteelBar.label>штейн</SteelBar.label>
+	<SteelBar.description>Штейн это очень прочный сплав железа и никеля, отличающийся уникально низким коэффициентом температурного расширения. Штейн - слабомагнитный металл.</SteelBar.description>
+	<SteelBar.stuffProps.stuffAdjective>штейна</SteelBar.stuffProps.stuffAdjective>
+	<Titanium.label>титан</Titanium.label>
+	<Titanium.stuffProps.stuffAdjective>титана</Titanium.stuffProps.stuffAdjective>
+	<CarbonAlloy.label>композитный сплав</CarbonAlloy.label>
+	<CarbonAlloy.stuffProps.stuffAdjective>композита</CarbonAlloy.stuffProps.stuffAdjective>
+
+</LanguageData>

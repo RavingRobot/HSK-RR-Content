@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Core SK-->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>EnablingPelmeniHediff</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Pelmeni"]/description</xpath>
+			<value>
+				<description>Meat filling wrapped in a thin dough, serve with condiments to your taste. Simple yet delicious.\n\nLowers pain\nImproves consciousness\nImproves metabolism</description>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="Pelmeni"]/ingestible</xpath>
+			<value>
+				<ingestible>
+					<foodType>Meal, Processed</foodType>
+					<preferability>MealFine</preferability>
+					<ingestEffect>EatVegetarian</ingestEffect>
+					<tasteThought>AteLavishMeal</tasteThought>
+					<ingestSound>Meal_Eat</ingestSound>
+					<outcomeDoers>
+						<li Class="IngestionOutcomeDoer_GiveHediff">
+							<hediffDef>HadPelmeni</hediffDef>
+							<severity>0.6</severity>
+						</li>
+					</outcomeDoers>
+				</ingestible>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<HediffDef>
+					<defName>HadPelmeni</defName>
+					<label>ate pelmeni</label>
+					<description>Пельмешки!</description>
+					<initialSeverity>1</initialSeverity>
+					<hediffClass>HediffWithComps</hediffClass>
+					<isBad>false</isBad>
+					<comps>
+						<li Class="HediffCompProperties_SeverityPerDay">
+							<severityPerDay>-0.7</severityPerDay>
+						</li>
+					</comps>
+					<stages>
+						<li>
+							<minSeverity>0</minSeverity>
+							<painFactor>0.95</painFactor>
+							<capMods>
+								<li>
+									<capacity>Consciousness</capacity>
+									<offset>0.05</offset>
+								</li>
+								<li>
+									<capacity>Metabolism</capacity>
+									<offset>0.1</offset>
+								</li>
+							</capMods>
+						</li>
+					</stages>
+				</HediffDef>
+			</value>
+		</Operation>
+		
+    </caseTrue>
+	
+</Operation>
+
+</Patch>

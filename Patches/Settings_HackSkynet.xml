@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--Core SK-->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>HackSkynet</key>
+    <defaultValue>true</defaultValue>
+    <caseTrue>
+
+		<Operation Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<RecipeDef>
+					<defName>HackSkynetSK</defName>
+					<label>hack skynet unit</label>
+					<uiIconPath>Icons/HackSkynet</uiIconPath>
+					<description>Perform a complex neural hack to reprogram a captured Skynet terminator into a loyal colonist.\nHacking carries the risk of triggering the Terminator's self-destruction process.</description>
+					<jobString>Hacking Skynet unit</jobString>
+
+					<workerClass>HackSkynetSK.Recipe_HackSkynetSK</workerClass>
+					
+					<soundWorking>Interact_Repair</soundWorking>
+
+					<targetsBodyPart>false</targetsBodyPart>
+					<anesthetize>false</anesthetize>
+
+					<workAmount>3000</workAmount>
+
+					<ingredients>
+					  <li>
+						<filter>
+						  <thingDefs>
+							<li>AIChip</li>
+						  </thingDefs>
+						</filter>
+						<count>1</count>
+					  </li>
+					</ingredients>
+
+					<fixedIngredientFilter>
+					  <thingDefs>
+						<li>AIChip</li>
+					  </thingDefs>
+					</fixedIngredientFilter>
+
+					<skillRequirements>
+					  <Crafting>10</Crafting>
+					  <Medicine>10</Medicine>
+					  <Intellectual>15</Intellectual>
+					</skillRequirements>
+
+					<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
+
+					<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+					<!--<addsHediff>ImmunityRising</addsHediff>-->
+
+					<recipeUsers>
+					  <li>ResistanceBodyguard</li>
+					  <li>SkynetCovert</li>
+					  <li>SkynetCovertTraveller</li>
+					  <li>SkynetInfiltratorNaked</li>
+					  <li>SkynetInfiltratorOrigin</li>
+					  <li>SkynetInfiltrator</li>
+					  <li>SkynetInfiltratorHightech</li>
+					  <li>SkynetAgent</li>
+					  <li>SkynetAgentHighTech</li>
+					  <li>SkynetPrototypeTX</li>
+					  <li>SkynetPrototypeTXOrigin</li>
+					  <li>SkynetPrototypeTXHighTech</li>
+					  <li>SkynetInfiltratorEvent</li>
+					  <li>SkynetAgentEvent</li>
+					  <li>SkynetPrototypeTXEvent</li>
+					  <li>SkynetPrototypeTXHighTech</li>
+					</recipeUsers>
+				  </RecipeDef>
+			</value>
+		</Operation>
+		
+    </caseTrue>
+	
+</Operation>
+
+</Patch>

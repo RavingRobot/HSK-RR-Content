@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## Energetic Lung ############## -->
+
+  <CONN_InstallEnergeticLung.label>пересадить энергетическое лёгкое</CONN_InstallEnergeticLung.label>
+  <CONN_InstallEnergeticLung.description>Пересадить энергетическое лёгкое.</CONN_InstallEnergeticLung.description>
+  <CONN_InstallEnergeticLung.jobString>Пересаживает энергетическое лёгкое</CONN_InstallEnergeticLung.jobString>
+
+
+  <!-- ############## Energetic Kidney ############## -->
+
+  <CONN_InstallEnergeticKidney.label>пересадить энергетическую почку</CONN_InstallEnergeticKidney.label>
+  <CONN_InstallEnergeticKidney.description>Пересадить энергетическую почку.</CONN_InstallEnergeticKidney.description>
+  <CONN_InstallEnergeticKidney.jobString>Пересаживает энергетическую почку</CONN_InstallEnergeticKidney.jobString>
+
+
+  <!-- ############## Energy Core ############## -->
+
+  <CONN_InstallEnergyCore.label>имплантировать энергетическое ядро</CONN_InstallEnergyCore.label>
+  <CONN_InstallEnergyCore.description>Имплантирует энергетическое ядро.</CONN_InstallEnergyCore.description>
+  <CONN_InstallEnergyCore.jobString>Имплантирует энергетическое ядро</CONN_InstallEnergyCore.jobString>
+
+
+  <!-- ############## Autonomic Antibodies ############## -->
+
+  <CONN_InstallAutonomicViruskiller.label>имплантировать противовирусный нанит</CONN_InstallAutonomicViruskiller.label>
+  <CONN_InstallAutonomicViruskiller.description>Имплантировать Противовирусный Нанит.</CONN_InstallAutonomicViruskiller.description>
+  <CONN_InstallAutonomicViruskiller.jobString>Имплантирует противовирусный нанит</CONN_InstallAutonomicViruskiller.jobString>
+
+
+  <!-- ############## Aurum ############## -->
+
+  <CONN_InstallAurum.label>имплантировать золотой глаз</CONN_InstallAurum.label>
+  <CONN_InstallAurum.description>Установить золотой глаз.</CONN_InstallAurum.description>
+  <CONN_InstallAurum.jobString>Имплантирует золотой глаз</CONN_InstallAurum.jobString>
+
+
+</LanguageData>

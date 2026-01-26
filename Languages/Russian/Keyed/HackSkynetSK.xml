@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Взлом SkynetSK -->
+  <HackSkynetSK.label>Взломать терминатора Skynet</HackSkynetSK.label>
+  <HackSkynetSK.description>Провести сложный нейронный взлом, чтобы перепрограммировать пленного терминатора Skynet в преданного колониста.\nВзлом несет в себе риск запуска процесса самоуничтожения терминатора.</HackSkynetSK.description>
+  <HackSkynetSK.jobString>Взлом терминатора Skynet</HackSkynetSK.jobString>
+  <HackSkynetSK_LetterTitle>Результат взлома</HackSkynetSK_LetterTitle>
+  <HackSkynetSK_SuccessMessage>{0} успешно перепрограммирован и теперь служит колонии.</HackSkynetSK_SuccessMessage>
+  <HackSkynetSK_FailureMessage>{0} активировал режим самоуничтожения во время взлома.</HackSkynetSK_FailureMessage>
+  <HackSkynetSK_RaidTriggered>Skynet обнаружил попытку взлома своего терминатора. Готовится карательная операция.</HackSkynetSK_RaidTriggered>
+</LanguageData>
