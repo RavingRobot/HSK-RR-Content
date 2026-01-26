@@ -1,5 +1,5 @@
 # HSK-RR-Content
-####  [**Hardcore SK modpack only!**](https://github.com/skyarkhangel/Hardcore-SK "Hardcore SK modpack only!")
+####  [**Hardcore SK 1.5 modpack only!**](https://github.com/skyarkhangel/Hardcore-SK "Hardcore SK modpack only!")
 
 #### Список нового контента:
 - Добавлена возможность взлома терминаторов, чтобы сделать их колонистами. При неудаче терминатор самоуничтожится, плюс с шансом придет рейд Skynet. Требуется 1 ЧИП-ИИ, пешка с ремеслом 10, медициной 10 и умственным трудом 15
