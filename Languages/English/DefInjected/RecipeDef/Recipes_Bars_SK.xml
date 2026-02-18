@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+	<MakeFerronickelAlloy.label>Выплавить штейн</MakeFerronickelAlloy.label>
+	<MakeFerronickelAlloy.jobString>Выплавляет штейн</MakeFerronickelAlloy.jobString>
+
+	<MakeCarbonAlloy.label>Создать композитный сплав</MakeCarbonAlloy.label>
+	<MakeCarbonAlloy.jobString>Создаёт композитный сплав</MakeCarbonAlloy.jobString>
+
+</LanguageData>

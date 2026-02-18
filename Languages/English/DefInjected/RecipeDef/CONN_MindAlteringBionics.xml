@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ############## Berserker Chip ############## -->
+
+  <CONN_InstallBerserkerChip.label>вживить чип берсерка</CONN_InstallBerserkerChip.label>
+  <CONN_InstallBerserkerChip.description>Вживить чип Берсерка.</CONN_InstallBerserkerChip.description>
+  <CONN_InstallBerserkerChip.jobString>Вживляет чип</CONN_InstallBerserkerChip.jobString>
+
+  <CONN_RemoveBerserkerChip.label>удалить чип берсерка</CONN_RemoveBerserkerChip.label>
+  <CONN_RemoveBerserkerChip.description>Удалить чип берсерка.</CONN_RemoveBerserkerChip.description>
+  <CONN_RemoveBerserkerChip.jobString>Удаление чипа берсерка</CONN_RemoveBerserkerChip.jobString>
+
+
+  <!-- ############## Mindtwist ############## -->
+
+  <CONN_InstallMindtwist.label>вживить чип контроля разума</CONN_InstallMindtwist.label>
+  <CONN_InstallMindtwist.description>Вживить чип контроля разума.</CONN_InstallMindtwist.description>
+  <CONN_InstallMindtwist.jobString>Вживляет чип</CONN_InstallMindtwist.jobString>
+
+  <CONN_RemoveMindTwist.label>удалить чип контроля разума</CONN_RemoveMindTwist.label>
+  <CONN_RemoveMindTwist.description>Удалить чип контроля разума.</CONN_RemoveMindTwist.description>
+  <CONN_RemoveMindTwist.jobString>Удаление чипа контроля разума</CONN_RemoveMindTwist.jobString>
+
+
+  <!-- ############## Virtual Identity Muse ############## -->
+
+  <CONN_InstallMuseChip.label>вживить чип процветания разума</CONN_InstallMuseChip.label>
+  <CONN_InstallMuseChip.description>Вживить чип процветания разума.</CONN_InstallMuseChip.description>
+  <CONN_InstallMuseChip.jobString>Вживляет чип</CONN_InstallMuseChip.jobString>
+
+  <CONN_RemoveMuseChip.label>удалить чип процветания разума</CONN_RemoveMuseChip.label>
+  <CONN_RemoveMuseChip.description>Удалить чип процветания разума.</CONN_RemoveMuseChip.description>
+  <CONN_RemoveMuseChip.jobString>Удаление чипа процветания разума</CONN_RemoveMuseChip.jobString>
+
+
+  <!-- ############## Neuro Enhancer ############## -->
+
+  <CONN_InstallNeuroEnhancer.label>установить нейро-усилитель</CONN_InstallNeuroEnhancer.label>
+  <CONN_InstallNeuroEnhancer.description>Установить Нейро-усилитель.</CONN_InstallNeuroEnhancer.description>
+  <CONN_InstallNeuroEnhancer.jobString>Устанавливает Нейро-усилитель</CONN_InstallNeuroEnhancer.jobString>
+
+  <CONN_RemoveNeuroEnchancer.label>удалить нейро-усилитель</CONN_RemoveNeuroEnchancer.label>
+  <CONN_RemoveNeuroEnchancer.description>Удалить нейро-усилитель.</CONN_RemoveNeuroEnchancer.description>
+  <CONN_RemoveNeuroEnchancer.jobString>Удаление нейро-усилителя</CONN_RemoveNeuroEnchancer.jobString>
+
+
+  <!-- ############## Combat AI ############## -->
+
+  <CONN_InstallCombatAI.label>вживить чип боевой ии</CONN_InstallCombatAI.label>
+  <CONN_InstallCombatAI.description>Вживить чип боевой ИИ.</CONN_InstallCombatAI.description>
+  <CONN_InstallCombatAI.jobString>Вживляет чип</CONN_InstallCombatAI.jobString>
+
+  <CONN_RemoveCombatAI.label>удалить чип боевой ии</CONN_RemoveCombatAI.label>
+  <CONN_RemoveCombatAI.description>Удалить чип боевой ии.</CONN_RemoveCombatAI.description>
+  <CONN_RemoveCombatAI.jobString>Удаление чипа боевого ии</CONN_RemoveCombatAI.jobString>
+
+
+</LanguageData>

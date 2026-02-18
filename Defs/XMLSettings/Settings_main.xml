@@ -28,6 +28,13 @@
 				<defaultValue>true</defaultValue>
 			</li>
 			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>DroidEnergyComa</key>
+				<label>Replace droids death from discharge with an energy coma?</label>
+					<tKey>DroidEnergyComa</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			
 			<li Class="XmlExtensions.Setting.Gap"></li>
 			<li Class="XmlExtensions.Setting.GapLine"></li>
 			<li Class="XmlExtensions.Setting.Gap"></li>

@@ -39,6 +39,10 @@
             <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
         </li>
+		<li>
+            <packageId>UnlimitedHugs.AllowTool</packageId>
+            <displayName>Allow Tool</displayName>
+        </li>
 	</modDependencies>
 	<loadBefore>
 		<li>trinity.runtimegcupdated</li>
@@ -55,6 +59,7 @@
 		<li>arpomo6.hmc.project</li>
 		<li>ChJees.Androids</li>
 		<li>doug.conn</li>
+		<li>UnlimitedHugs.AllowTool</li>
 	</loadAfter>
 	<incompatibleWith>
 	</incompatibleWith>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DroidInComaLetterLabel>{0} entered energy coma</DroidInComaLetterLabel>
+  <DroidInComaLetterText>The droid {0} has completely run out of power and entered a low-power coma state. It cannot move or act until its battery is replaced.</DroidInComaLetterText>
+  <MessageDroidInComa>{0} has entered energy coma!</MessageDroidInComa>
+  <MessageDroidBatteryReplaced>{0} has been revived after battery replacement.</MessageDroidBatteryReplaced>
+</LanguageData>

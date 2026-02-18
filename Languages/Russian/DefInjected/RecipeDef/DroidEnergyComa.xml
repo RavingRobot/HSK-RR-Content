@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <ReplaceDroidBattery.label>Заменить батарею дроида</ReplaceDroidBattery.label>
+  <ReplaceDroidBattery.description>Заменить разряженную батарею дроида, находящегося в коме, чтобы восстановить его работоспособность.</ReplaceDroidBattery.description>
+  <ReplaceDroidBattery.jobString>Заменяет батарею.</ReplaceDroidBattery.jobString>
+</LanguageData>

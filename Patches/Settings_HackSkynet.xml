@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
-<!--Core SK-->
+<!--HSK-RR-Content-->
 
 <Operation Class="XmlExtensions.OptionalPatch">
     <modId>HSKRRContent.Settings</modId>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_CONN_Zoom.label>сделать трансфокатор</Make_CONN_Zoom.label>
+  <Make_CONN_Zoom.description>Сделать Трансфокатор.</Make_CONN_Zoom.description>
+  <Make_CONN_Zoom.jobString>Делает Трансфокатор</Make_CONN_Zoom.jobString>
+
+  <Make_CONN_BlackPearl.label>сделать черную жемчужину</Make_CONN_BlackPearl.label>
+  <Make_CONN_BlackPearl.description>Сделать Черную жемчужину.</Make_CONN_BlackPearl.description>
+  <Make_CONN_BlackPearl.jobString>Делает Черную жемчужину</Make_CONN_BlackPearl.jobString>
+
+  <Make_CONN_IndependentEye.label>сделать глаз-антилогики</Make_CONN_IndependentEye.label>
+  <Make_CONN_IndependentEye.description>Сделать Глаз-Антилогики.</Make_CONN_IndependentEye.description>
+  <Make_CONN_IndependentEye.jobString>Делает Глаз-Антилогики</Make_CONN_IndependentEye.jobString>
+
+  <Make_CONN_HoverFeet.label>сделать парящую стопу</Make_CONN_HoverFeet.label>
+  <Make_CONN_HoverFeet.description>Сделать Парящую стопу.</Make_CONN_HoverFeet.description>
+  <Make_CONN_HoverFeet.jobString>Делает Парящую стопу</Make_CONN_HoverFeet.jobString>
+
+  <Make_CONN_Greenthumb.label>сделать ручной модуль растениводства</Make_CONN_Greenthumb.label>
+  <Make_CONN_Greenthumb.description>Сделать Ручной модуль Растениеводства.</Make_CONN_Greenthumb.description>
+  <Make_CONN_Greenthumb.jobString>Делает Ручной модуль Растениводства</Make_CONN_Greenthumb.jobString>
+
+  <Make_CONN_CompressionJaw.label>сделать гидравлическую челюсть</Make_CONN_CompressionJaw.label>
+  <Make_CONN_CompressionJaw.description>Сделать Гидравлическую челюсть.</Make_CONN_CompressionJaw.description>
+  <Make_CONN_CompressionJaw.jobString>Делает Гидравлическую челюсть</Make_CONN_CompressionJaw.jobString>
+
+  <Make_CONN_CompressionStomach.label>сделать гидравлический желудок</Make_CONN_CompressionStomach.label>
+  <Make_CONN_CompressionStomach.description>Сделать Гидравлический желудок.</Make_CONN_CompressionStomach.description>
+  <Make_CONN_CompressionStomach.jobString>Делает Гидравлический желудок</Make_CONN_CompressionStomach.jobString>
+
+  <Make_CONN_EnergeticLung.label>сделать энергетическое лёгкое</Make_CONN_EnergeticLung.label>
+  <Make_CONN_EnergeticLung.description>Сделать Энергетическое лёгкое.</Make_CONN_EnergeticLung.description>
+  <Make_CONN_EnergeticLung.jobString>Делает Энергетическое лёгкое</Make_CONN_EnergeticLung.jobString>
+
+  <Make_CONN_EnergeticKidney.label>сделать энергетическую почку</Make_CONN_EnergeticKidney.label>
+  <Make_CONN_EnergeticKidney.description>Сделать Энергетическую почку.</Make_CONN_EnergeticKidney.description>
+  <Make_CONN_EnergeticKidney.jobString>Делает Энергетическую почку</Make_CONN_EnergeticKidney.jobString>
+
+  <Make_CONN_EnergyCore.label>сделать энергетическое ядро</Make_CONN_EnergyCore.label>
+  <Make_CONN_EnergyCore.description>Сделать Энергетическое Ядро.</Make_CONN_EnergyCore.description>
+  <Make_CONN_EnergyCore.jobString>Делает Энергетическое Ядро</Make_CONN_EnergyCore.jobString>
+
+  <Make_CONN_EnergyLink.label>сделать модуль энергетической связи</Make_CONN_EnergyLink.label>
+  <Make_CONN_EnergyLink.description>Сделать модуль Энергетической связи.</Make_CONN_EnergyLink.description>
+  <Make_CONN_EnergyLink.jobString>Делает модуль Энергетической связи</Make_CONN_EnergyLink.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_CONN_EnergyFist.label>сделать энергетическую кисть</Make_CONN_EnergyFist.label>
+  <Make_CONN_EnergyFist.description>Сделать Энергетическую кисть.</Make_CONN_EnergyFist.description>
+  <Make_CONN_EnergyFist.jobString>Делает Энергетическую кисть</Make_CONN_EnergyFist.jobString>
+
+  <Make_CONN_OuterBlade.label>сделать встраивоемое лезвие</Make_CONN_OuterBlade.label>
+  <Make_CONN_OuterBlade.description>Сделать встраиваемое Лезвие.</Make_CONN_OuterBlade.description>
+  <Make_CONN_OuterBlade.jobString>Делает встраиваемое Лезвие</Make_CONN_OuterBlade.jobString>
+
+  <Make_CONN_PowerArms.label>сделать силовую руку</Make_CONN_PowerArms.label>
+  <Make_CONN_PowerArms.description>Сделать силовую Руку.</Make_CONN_PowerArms.description>
+  <Make_CONN_PowerArms.jobString>Делает силовую Руку</Make_CONN_PowerArms.jobString>
+
+  <Make_CONN_BerserkerChip.label>сделать чип берсерка</Make_CONN_BerserkerChip.label>
+  <Make_CONN_BerserkerChip.description>Сделать Чип Берсерка.</Make_CONN_BerserkerChip.description>
+  <Make_CONN_BerserkerChip.jobString>Делает Чип Берсерка</Make_CONN_BerserkerChip.jobString>
+
+  <Make_CONN_Mindtwist.label>сделать чип контроля разума</Make_CONN_Mindtwist.label>
+  <Make_CONN_Mindtwist.description>Сделать Чип контроля разума.</Make_CONN_Mindtwist.description>
+  <Make_CONN_Mindtwist.jobString>Делает Чип контроля разума</Make_CONN_Mindtwist.jobString>
+
+  <Make_CONN_Autonomicviruskiller.label>сделать автономный противовирусный нанит</Make_CONN_Autonomicviruskiller.label>
+  <Make_CONN_Autonomicviruskiller.description>Сделать противовирусный Нанит.</Make_CONN_Autonomicviruskiller.description>
+  <Make_CONN_Autonomicviruskiller.jobString>Делает противовирусный Нанит</Make_CONN_Autonomicviruskiller.jobString>
+
+  <Make_CONN_MuseChip.label>сделать чип процветания разума</Make_CONN_MuseChip.label>
+  <Make_CONN_MuseChip.description>Сделать Чип процветания разума.</Make_CONN_MuseChip.description>
+  <Make_CONN_MuseChip.jobString>Делает Чип процветания разума</Make_CONN_MuseChip.jobString>
+
+  <Make_CONN_NeuroEnhancer.label>сделать чип нейро-усилитель</Make_CONN_NeuroEnhancer.label>
+  <Make_CONN_NeuroEnhancer.description>Сделать Чип Нейро-Усилитель.</Make_CONN_NeuroEnhancer.description>
+  <Make_CONN_NeuroEnhancer.jobString>Делает Нейро-Усилитель</Make_CONN_NeuroEnhancer.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_CONN_FlashLight.label>сделать фонарик</Make_CONN_FlashLight.label>
+  <Make_CONN_FlashLight.description>Сделать Фонарик.</Make_CONN_FlashLight.description>
+  <Make_CONN_FlashLight.jobString>Делает Фонарик</Make_CONN_FlashLight.jobString>
+
+  <Make_CONN_LaserDetection.label>сделать лазерный сканнер</Make_CONN_LaserDetection.label>
+  <Make_CONN_LaserDetection.description>Сделать лазерный Сканнер.</Make_CONN_LaserDetection.description>
+  <Make_CONN_LaserDetection.jobString>Делает лазерный Сканнер</Make_CONN_LaserDetection.jobString>
+
+  <Make_CONN_SensoricEarside.label>сделать сенсорную оболочку уха</Make_CONN_SensoricEarside.label>
+  <Make_CONN_SensoricEarside.description>Сделать Сенсорную оболочку уха.</Make_CONN_SensoricEarside.description>
+  <Make_CONN_SensoricEarside.jobString>Делает Сенсорную оболочку уха</Make_CONN_SensoricEarside.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_CONN_CombatAI.label>Сделать модуль боевого ии</Make_CONN_CombatAI.label>
+  <Make_CONN_CombatAI.description>Сделать модуль боевого ИИ.</Make_CONN_CombatAI.description>
+  <Make_CONN_CombatAI.jobString>Делает модуль боевого ИИ</Make_CONN_CombatAI.jobString>
+
+  <Make_CONN_CyclopsVisor.label>сделать глаз Visor Cyclop</Make_CONN_CyclopsVisor.label>
+  <Make_CONN_CyclopsVisor.description>Сделать глаз "Visor Cyclop".</Make_CONN_CyclopsVisor.description>
+  <Make_CONN_CyclopsVisor.jobString>Делает глаз Visor Cyclop</Make_CONN_CyclopsVisor.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_CONN_Shadowrunner.label>сделать модуль Shadowrunner</Make_CONN_Shadowrunner.label>
+  <Make_CONN_Shadowrunner.description>Сделать модуль "Shadowrunner".</Make_CONN_Shadowrunner.description>
+  <Make_CONN_Shadowrunner.jobString>Делает модуль Shadowrunner</Make_CONN_Shadowrunner.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_CONN_Musclewire.label>сделать усиленное мышечное волокно</Make_CONN_Musclewire.label>
+  <Make_CONN_Musclewire.description>Сделать Усиленное мышечное волокно.</Make_CONN_Musclewire.description>
+  <Make_CONN_Musclewire.jobString>Делает Усиленное мышечное волокно</Make_CONN_Musclewire.jobString>
+
+  <Make_CONN_Dermalplating.label>сделать бронекожу</Make_CONN_Dermalplating.label>
+  <Make_CONN_Dermalplating.description>Сделать Бронекожу.</Make_CONN_Dermalplating.description>
+  <Make_CONN_Dermalplating.jobString>Делает Бронекожу</Make_CONN_Dermalplating.jobString>
+
+  <Make_CONN_Exoskeleton.label>сделать армированный экзоскелет</Make_CONN_Exoskeleton.label>
+  <Make_CONN_Exoskeleton.description>Сделать армированный кзоскелет.</Make_CONN_Exoskeleton.description>
+  <Make_CONN_Exoskeleton.jobString>Делает армированный экзоскелет</Make_CONN_Exoskeleton.jobString>
+
+
+  <!-- Recipe Users: TableMachining, FabricationBench, FabricationBench -->
+
+  <Make_CONN_Lionheart.label>сделать модуль "Lionheart"</Make_CONN_Lionheart.label>
+  <Make_CONN_Lionheart.description>Сделать модуль "Lionheart".</Make_CONN_Lionheart.description>
+  <Make_CONN_Lionheart.jobString>Делает модуль Lionheart</Make_CONN_Lionheart.jobString>
+
+  <Make_CONN_Aurum.label>сделать золотой глаз</Make_CONN_Aurum.label>
+  <Make_CONN_Aurum.description>Сделать Золотой глаз.</Make_CONN_Aurum.description>
+  <Make_CONN_Aurum.jobString>Делает Золотой глаз</Make_CONN_Aurum.jobString>
+
+
+  <!-- Recipe Users: FabricationBench -->
+
+  <Make_CONN_AureanCornea.label>сделать золотую роговицу</Make_CONN_AureanCornea.label>
+  <Make_CONN_AureanCornea.description>Сделать золотую Роговицу.</Make_CONN_AureanCornea.description>
+  <Make_CONN_AureanCornea.jobString>Делает золотую Роговицу</Make_CONN_AureanCornea.jobString>
+
+  <Make_CONN_Synchronizer.label>сделать экран синхронизации</Make_CONN_Synchronizer.label>
+  <Make_CONN_Synchronizer.description>Сделать Экран Синхронизации.</Make_CONN_Synchronizer.description>
+  <Make_CONN_Synchronizer.jobString>Делает Экран Синхронизации</Make_CONN_Synchronizer.jobString>
+
+  <Make_CONN_ElasticAchilles.label>сделать синтетические сухожилия</Make_CONN_ElasticAchilles.label>
+  <Make_CONN_ElasticAchilles.description>Сделать синтетические Сухожилия.</Make_CONN_ElasticAchilles.description>
+  <Make_CONN_ElasticAchilles.jobString>Делает синтетичекие Сухожилия</Make_CONN_ElasticAchilles.jobString>
+
+  <Make_CONN_NeuromodBooster.label>сделать нейро-мод</Make_CONN_NeuromodBooster.label>
+  <Make_CONN_NeuromodBooster.description>Сделать Нейро-Мод.</Make_CONN_NeuromodBooster.description>
+  <Make_CONN_NeuromodBooster.jobString>Делает Нейро-Мод</Make_CONN_NeuromodBooster.jobString>
+
+  <Make_CONN_Brainwash.label>сделать мозгопромывщик</Make_CONN_Brainwash.label>
+  <Make_CONN_Brainwash.description>Сделать Мозгопромывщик.</Make_CONN_Brainwash.description>
+  <Make_CONN_Brainwash.jobString>Делает Мозгопромывщик</Make_CONN_Brainwash.jobString>
+
+  <Make_CONN_PassionGiver.label>сделать устраститель способностей</Make_CONN_PassionGiver.label>
+  <Make_CONN_PassionGiver.description>Сделать Устраститель Способностей.</Make_CONN_PassionGiver.description>
+  <Make_CONN_PassionGiver.jobString>Делает Устраститель Способностей</Make_CONN_PassionGiver.jobString>
+
+  <Make_CONN_MindClearer.label>сделать стиратель памяти</Make_CONN_MindClearer.label>
+  <Make_CONN_MindClearer.description>Сделать Стиратель Памяти.</Make_CONN_MindClearer.description>
+  <Make_CONN_MindClearer.jobString>Делает Стиратель Памяти</Make_CONN_MindClearer.jobString>
+
+  <Make_CONN_Reconditioner.label>сделать реставратор</Make_CONN_Reconditioner.label>
+  <Make_CONN_Reconditioner.description>Сделать Реставратор.</Make_CONN_Reconditioner.description>
+  <Make_CONN_Reconditioner.jobString>Делает Реставратор</Make_CONN_Reconditioner.jobString>
+
+
+</LanguageData>

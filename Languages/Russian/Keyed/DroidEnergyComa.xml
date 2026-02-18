@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DroidInComaLetterLabel>{0} в энергетической коме</DroidInComaLetterLabel>
+  <DroidInComaLetterText>Дроид {0} полностью разрядился и перешёл в состояние энергетической комы. Он не может двигаться и выполнять действия, пока ему не заменят батарею.</DroidInComaLetterText>
+  <MessageDroidInComa>{0} впал в энергетическую кому!</MessageDroidInComa>
+  <MessageDroidBatteryReplaced>{0} восстановлен после замены батареи.</MessageDroidBatteryReplaced>
+</LanguageData>
