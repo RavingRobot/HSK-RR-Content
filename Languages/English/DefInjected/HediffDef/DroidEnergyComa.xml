@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <EnergyComa.label>Energy coma</EnergyComa.label>
-  <EnergyComa.description>The droid has completely run out of power and entered a low-power coma state. It cannot move or act until its battery is replaced. To replace the battery, you need a colonist with a crafting skill of 15 or higher.</EnergyComa.description>
+  <EnergyComa.description>The droid has completely run out of power and entered a low-power coma state. It cannot move or act until its battery is replaced.</EnergyComa.description>
 </LanguageData>

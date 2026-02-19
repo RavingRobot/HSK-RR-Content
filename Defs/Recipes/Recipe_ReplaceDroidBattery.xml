@@ -14,7 +14,7 @@
 		<dontShowIfAnyIngredientMissing>false</dontShowIfAnyIngredientMissing>
 		<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
 		<skillRequirements>
-		  <Crafting>15</Crafting>
+		  <Crafting>10</Crafting>
 		</skillRequirements>
 		<ingredients>
 		  <li>
