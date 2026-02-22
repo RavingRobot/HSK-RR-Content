@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Взлом SkynetSK -->
+  <HackSkynetSK.label>Взломать терминатора Skynet</HackSkynetSK.label>
+  <HackSkynetSK.description>Провести сложный нейронный взлом, чтобы перепрограммировать пленного терминатора Skynet в преданного колониста.\nВзлом несет в себе риск запуска процесса самоуничтожения терминатора.</HackSkynetSK.description>
+  <HackSkynetSK.jobString>Взлом терминатора Skynet</HackSkynetSK.jobString>
+</LanguageData>

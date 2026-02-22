@@ -2,10 +2,10 @@
 <Defs>
     <HediffDef>
 		<defName>EnergyComa</defName>
-		<label>EnergyComa</label>
+		<label>EnergyComa.label</label>
 		<description>EnergyComa</description>
 		<hediffClass>DroidEnergyComa.Hediff_EnergyComa</hediffClass>
-		<defaultLabelColor>(0.3, 0.3, 1)</defaultLabelColor>
+		<defaultLabelColor>(1, 0.3, 0.3)</defaultLabelColor>
 		<lethalSeverity>1.0</lethalSeverity>
 		<makesSickThought>false</makesSickThought>
 		<stages>

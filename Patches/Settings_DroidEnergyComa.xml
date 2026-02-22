@@ -9,7 +9,6 @@
     <defaultValue>true</defaultValue>
     
 	<caseTrue>
-		
 		<Operation Class="PatchOperationAdd">
 			<xpath>Defs</xpath>
 			<value>
@@ -24,9 +23,26 @@
 				  </modExtensions>
 				</ThingDef>
 			</value>
-		</Operation>		
-		
+		</Operation>
     </caseTrue>
+	
+	<caseFalse>
+		<Operation Class="PatchOperationAdd">
+			<xpath>Defs</xpath>
+			<value>
+				<ThingDef>
+				  <defName>DroidEnergyComaDummyDefForSettings</defName>
+				  <label>DroidEnergyComaDummy</label>
+				  <thingClass>Thing</thingClass>
+				  <modExtensions>
+					<li Class="DroidEnergyComa.DroidEnergyComa_Extension">
+					  <replaceDroidDeathWithComa>false</replaceDroidDeathWithComa>
+					</li>
+				  </modExtensions>
+				</ThingDef>
+			</value>
+		</Operation>
+    </caseFalse>
 	
 </Operation>
 

@@ -6,7 +6,7 @@
 		<description>ReplaceDroidBattery.description</description>
 		<workerClass>DroidEnergyComa.Recipe_ReplaceDroidBattery</workerClass>
 		<jobString>ReplaceDroidBattery.jobString</jobString>
-		<workAmount>2000</workAmount>
+		<workAmount>800</workAmount>
 		<soundWorking>Interact_Repair</soundWorking>
 		<effectWorking>Repair</effectWorking>
 		<targetsBodyPart>false</targetsBodyPart>

@@ -1,3 +1,32 @@
+﻿HackSkynetSK_Extension.cs
+
+using System;
+using Verse;
+
+namespace HackSkynetSK
+{
+    public class HackSkynetSK_Extension : DefModExtension
+    {
+        public bool enableHackSkynet = false;
+    }
+}
+
+
+
+HackSkynetSK_Settings.cs
+
+namespace HackSkynetSK
+{
+    public static class HackSkynetSK_Settings
+    {
+        public static bool enableHackSkynet = false;
+    }
+}
+
+
+
+Recipe_HackSkynetSK.cs
+
 using RimWorld;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +39,11 @@ public class Recipe_HackSkynetSK : RecipeWorker
 {
 	public override void ApplyOnPawn(Pawn pawn, BodyPartRecord part, Pawn billDoer, List<Thing> ingredients, Bill bill)
 	{
+        if (!IsHackEnabled())
+        {
+            return;
+        }
+
         if (Rand.Chance(0.5f))
 		{
 			pawn.SetFaction(Faction.OfPlayer, billDoer);
@@ -37,7 +71,7 @@ public class Recipe_HackSkynetSK : RecipeWorker
 		Faction faction = null;
 		foreach (Faction item in Find.FactionManager.AllFactionsListForReading)
 		{
-			if (item.def?.fixedName == "Skynet" || (item.def?.fixedName == "Скайнет" && item.HostileTo(Faction.OfPlayer)))
+			if (item.def?.fixedName == "Skynet" || (item.def?.fixedName == "РЎРєР°Р№РЅРµС‚" && item.HostileTo(Faction.OfPlayer)))
 			{
 				faction = item;
 				break;
@@ -70,8 +104,24 @@ public class Recipe_HackSkynetSK : RecipeWorker
 		}
 	}
 
+    private bool IsHackEnabled()
+    {
+        var ext = DefDatabase<ThingDef>.AllDefs
+                .Select(d => d.GetModExtension<HackSkynetSK_Extension>())
+                .FirstOrDefault(x => x != null);
+        if (ext != null)
+        {
+            HackSkynetSK_Settings.enableHackSkynet = ext.enableHackSkynet;
+        }
+
+        return false;
+    }
+
     private void SendLetter(string key, string labelShort, LetterDef letterDef, Pawn pawn)
 	{
 		Find.LetterStack.ReceiveLetter("HackSkynetSK_LetterTitle".Translate(), key.Translate(labelShort), letterDef, pawn);
 	}
 }
+
+
+

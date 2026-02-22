@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <ReplaceDroidBattery.label>replace droid battery</ReplaceDroidBattery.label>
+  <ReplaceDroidBattery.label>Replace droid battery</ReplaceDroidBattery.label>
   <ReplaceDroidBattery.description>Replace the depleted battery of a comatose droid to restore it to operation. To replace the battery, you need a colonist with a crafting skill of 10 or higher.</ReplaceDroidBattery.description>
-  <ReplaceDroidBattery.jobString>Replacing battery.</ReplaceDroidBattery.jobString>
+  <ReplaceDroidBattery.jobString>Replacing battery</ReplaceDroidBattery.jobString>
 </LanguageData>

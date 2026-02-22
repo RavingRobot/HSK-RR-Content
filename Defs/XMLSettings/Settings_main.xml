@@ -16,10 +16,17 @@
 			
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>AddingOrganTransplantsForAndroids</key>
-				<label>Add organ transplants for androids? It is recommended to use this patch instead of the similar one in Watcher Content</label>
+				<label>Add organ transplants for androids?</label>
 					<tKey>AddingOrganTransplantsForAndroids</tKey>
 				<defaultValue>false</defaultValue>
 			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<Text>It is recommended to use this patch instead of the similar one in Watcher Content</Text>
+					<tKey>AddingOrganTransplantsForAndroids2</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
 			
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>HackSkynet</key>
@@ -27,6 +34,8 @@
 					<tKey>HackSkynet</tKey>
 				<defaultValue>true</defaultValue>
 			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
 			
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>DroidEnergyComa</key>
