@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WorkTab.SaveLoadPreset>Сохранить или загрузить пресет работ</WorkTab.SaveLoadPreset>
+  <WorkTab.WorkPreset>Пресеты работ</WorkTab.WorkPreset>
+  <WorkTab.NewPresetName>Новый пресет:</WorkTab.NewPresetName>
+  <WorkTab.Save>Сохранить</WorkTab.Save>
+  <WorkTab.Load>Загрузить</WorkTab.Load>
+  <WorkTab.Overwrite>Перезаписать</WorkTab.Overwrite>
+  <WorkTab.EmptyName>Имя не может быть пустым.</WorkTab.EmptyName>
+  <WorkTab.PresetExists>Пресет с таким именем уже существует.</WorkTab.PresetExists>
+  <WorkTab.PresetSaved>Пресет '{0}' сохранен.</WorkTab.PresetSaved>
+  <WorkTab.SaveFailed>Не удалось сохранить пресет.</WorkTab.SaveFailed>
+  <WorkTab.PresetLoadedForPawn>Пресет '{0}' загружен для {1}.</WorkTab.PresetLoadedForPawn>
+  <WorkTab.LoadFailed>Не удалось загрузить пресет.</WorkTab.LoadFailed>
+  <WorkTab.ConfirmOverwrite>Перезаписать пресет '{0}'?</WorkTab.ConfirmOverwrite>
+  <WorkTab.ConfirmDelete>Удалить пресет '{0}'?</WorkTab.ConfirmDelete>
+  <WorkTab.DeleteFailed>Не удалось удалить пресет.</WorkTab.DeleteFailed>
+  <WorkTab.OverwriteFailed>Не удалось перезаписать пресет.</WorkTab.OverwriteFailed>
+  <WorkTab.Delete>Удалить</WorkTab.Delete>
+  <WorkTab.PresetOverwrited>Пресет '{0}' был перезаписан.</WorkTab.PresetOverwrited>
+  <WorkTab.PresetDeleted>Пресет '{0}' был удален.</WorkTab.PresetDeleted>
+</LanguageData>

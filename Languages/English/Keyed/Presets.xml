@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WorkTab.SaveLoadPreset>Save or load work presets</WorkTab.SaveLoadPreset>
+  <WorkTab.WorkPreset>Work Presets</WorkTab.WorkPreset>
+  <WorkTab.NewPresetName>New preset:</WorkTab.NewPresetName>
+  <WorkTab.Save>Save</WorkTab.Save>
+  <WorkTab.Load>Load</WorkTab.Load>
+  <WorkTab.Overwrite>Overwrite</WorkTab.Overwrite>
+  <WorkTab.EmptyName>Name cannot be empty.</WorkTab.EmptyName>
+  <WorkTab.PresetExists>A preset with this name already exists.</WorkTab.PresetExists>
+  <WorkTab.PresetSaved>Preset '{0}' saved.</WorkTab.PresetSaved>
+  <WorkTab.SaveFailed>Failed to save preset.</WorkTab.SaveFailed>
+  <WorkTab.PresetLoadedForPawn>Preset '{0}' loaded for {1}.</WorkTab.PresetLoadedForPawn>
+  <WorkTab.LoadFailed>Failed to load preset.</WorkTab.LoadFailed>
+  <WorkTab.ConfirmOverwrite>Overwrite preset '{0}'?</WorkTab.ConfirmOverwrite>
+  <WorkTab.ConfirmDelete>Delete preset '{0}'?</WorkTab.ConfirmDelete>
+  <WorkTab.DeleteFailed>Failed to delete preset.</WorkTab.DeleteFailed>
+  <WorkTab.OverwriteFailed>Failed to overwrite preset.</WorkTab.OverwriteFailed>
+  <WorkTab.Delete>Delete this preset</WorkTab.Delete>
+  <WorkTab.PresetOverwrited>Preset '{0}' was overwrited.</WorkTab.PresetOverwrited>
+  <WorkTab.PresetDeleted>Preset '{0}' was deleted.</WorkTab.PresetDeleted>
+</LanguageData>
