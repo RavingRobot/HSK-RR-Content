@@ -9,6 +9,15 @@
     <defaultValue>true</defaultValue>
     
 	<caseTrue>
+		<!-- Market Value -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="ChjAndroid"]/statBases/MarketValue</xpath>
+			<value>
+				<MarketValue>20000</MarketValue>
+			</value>
+		</Operation>
+		
 		<!-- Base Android costs -->
 		
 		<Operation Class="PatchOperationReplace">
