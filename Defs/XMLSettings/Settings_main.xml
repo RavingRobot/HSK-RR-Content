@@ -23,7 +23,6 @@
 			<li Class="XmlExtensions.Setting.Text">
 				<Text>It is recommended to use this patch instead of the similar one in Watcher Content</Text>
 					<tKey>AddingOrganTransplantsForAndroids2</tKey>
-				<defaultValue>true</defaultValue>
 			</li>
 			
 			<li Class="XmlExtensions.Setting.Gap"></li>
@@ -48,6 +47,26 @@
 			<li Class="XmlExtensions.Setting.GapLine"></li>
 			<li Class="XmlExtensions.Setting.Gap"></li>
 			
+			<!-- Vanilla -->
+			
+			<li Class="XmlExtensions.Setting.Text">
+				<text>Patches - Vanilla</text>
+				<anchor>Middle</anchor>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>BabyRest</key>
+				<label>Turn off the mood of babies from the need for rest?</label>
+					<tKey>BabyRest</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			<li Class="XmlExtensions.Setting.GapLine"></li>
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
 			<!-- Hardcore SK -->
 			
 			<li Class="XmlExtensions.Setting.Text">
@@ -64,12 +83,29 @@
 				<defaultValue>false</defaultValue>
 			</li>
 			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
+			<li Class="XmlExtensions.Setting.Checkbox">
+				<key>AndroidsCost</key>
+				<label>Increase the cost of printing androids? © Schmidt_xD</label>
+					<tKey>AndroidsCost</tKey>
+				<defaultValue>true</defaultValue>
+			</li>
+			<li Class="XmlExtensions.Setting.Text">
+				<Text>Androids are very cheap to create compared to pawns with implants (with equal boosts).</Text>
+					<tKey>AndroidsCost2</tKey>
+			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
+			
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>EnablingSomeMeatInPizzaNPelmeni</key>
 				<label>Enable some meat in pizza and pelmeni?</label>
 					<tKey>EnablingSomeMeatInPizzaNPelmeni</tKey>
 				<defaultValue>true</defaultValue>
 			</li>
+			
+			<li Class="XmlExtensions.Setting.Gap"></li>
 			
 			<li Class="XmlExtensions.Setting.Checkbox">
 				<key>EnablingPelmeniHediff</key>
@@ -84,37 +120,54 @@
 			
 			<!-- HSK More Content -->
 			
-			<li Class="XmlExtensions.Setting.Text">
-				<text>Patches - HSK More Content</text>
-				<anchor>Middle</anchor>
+			<li Class="XmlExtensions.Setting.IfStatement">
+				<condition Class="XmlExtensions.Boolean.FindMod">
+					<mods>
+						<li>arpomo6.hmc.project</li>
+					</mods>
+					<packageId>true</packageId>
+				</condition>
+				<evalFrequency>default = Realtime</evalFrequency>
+				<caseTrue> 
+								
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Patches - HSK More Content</text>
+						<anchor>Middle</anchor>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Gap"></li>
+					
+					<li Class="XmlExtensions.Setting.Checkbox">
+						<key>EnablingSomeMeatInChebupek</key>
+						<label>Enable some meat in chebupek? Do not enable if you do not have HSK more content!</label>
+							<tKey>EnablingSomeMeatInChebupek</tKey>
+						<defaultValue>false</defaultValue>
+					</li>
+					
+					<li Class="XmlExtensions.Setting.Gap"></li>
+					
+					<li Class="XmlExtensions.Setting.Text">
+						<text>Days before I.G.U.F. can come:</text>
+							<tKey>IgufRaidDays</tKey>
+					</li>
+					<li Class="XmlExtensions.Setting.Slider">
+						<key>IgufRaidDays</key>
+						<defaultValue>570</defaultValue>
+						<min>300</min>
+						<max>570</max>
+						<decimals>0</decimals>
+						<label>{IgufRaidDays}</label>
+					</li>	
+					
+					<li Class="XmlExtensions.Setting.Gap"></li>
+					<li Class="XmlExtensions.Setting.GapLine"></li>
+					<li Class="XmlExtensions.Setting.Gap"></li>
+			
+						</caseTrue>
+				<caseFalse>
+				</caseFalse>
 			</li>
 			
-			<li Class="XmlExtensions.Setting.Gap"></li>
-			
-			<li Class="XmlExtensions.Setting.Checkbox">
-				<key>EnablingSomeMeatInChebupek</key>
-				<label>Enable some meat in chebupek? Do not enable if you do not have HSK more content!</label>
-					<tKey>EnablingSomeMeatInChebupek</tKey>
-				<defaultValue>false</defaultValue>
-			</li>
-			
-			<li Class="XmlExtensions.Setting.Text">
-				<text>Days before I.G.U.F. can come (Do not change if you do not have HSK more content!):</text>
-					<tKey>IgufRaidDays</tKey>
-			</li>
-			<li Class="XmlExtensions.Setting.Slider">
-				<key>IgufRaidDays</key>
-				<defaultValue>570</defaultValue>
-				<min>300</min>
-				<max>570</max>
-				<decimals>0</decimals>
-				<label>{IgufRaidDays}</label>
-			</li>	
-			
-			<li Class="XmlExtensions.Setting.Gap"></li>
-			<li Class="XmlExtensions.Setting.GapLine"></li>
-			<li Class="XmlExtensions.Setting.Gap"></li>
-
 			<!-- Restart -->
 			
 			<li Class="XmlExtensions.Setting.ResetSettings">

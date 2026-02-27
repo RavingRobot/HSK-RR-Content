@@ -9,7 +9,7 @@
     <defaultValue>false</defaultValue>
     <caseTrue>
 		
-		<Operation  Class="PatchOperationReplace">
+		<Operation Class="PatchOperationReplace">
 			<xpath>/Defs/SK.Config[defName="Config"]/skillDecayExtensions</xpath>
 			<value>
 				<skillDecayExtensions>

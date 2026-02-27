@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!--HSK-RR-Content-->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>BabyRest</key>
+    <defaultValue>true</defaultValue>
+    
+	<caseTrue>
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThoughtDef[defName="NeedRest"]/developmentalStageFilter</xpath>
+			<value>
+				<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			</value>
+		</Operation>
+    </caseTrue>
+	
+</Operation>
+
+</Patch>

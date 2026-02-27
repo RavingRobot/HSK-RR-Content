@@ -6,11 +6,14 @@
   <AddingOrganTransplantsForAndroids2>Рекомендуется использовать этот патч вместо аналогичного в Watcher Content</AddingOrganTransplantsForAndroids2>
   <HackSkynet>Добавить взлом терминатора Skynet в операции, чтобы сделать его колонистом?</HackSkynet>
   <DroidEnergyComa>Заменить смерть дроидов от разряда на энергетическую кому?</DroidEnergyComa>
+  <BabyRest>Отключить настроение младенцев от нужды в отдыхе?</BabyRest>
   <DisablingSkillDegradationBySkillDecay>Отключить деградацию навыков из-за функции Core_SK «Skill Decay»?</DisablingSkillDegradationBySkillDecay>
+  <AndroidsCost>Увеличить стоимость печати андроидов?</AndroidsCost>
+  <AndroidsCost2>Создание андроидов очень дешево по сравнению с пешками с имплантами (при равных бустах возможностей).</AndroidsCost2>
   <EnablingSomeMeatInPizzaNPelmeni>Разрешить использование дополнительных видов мяса в пицце и пельменях?</EnablingSomeMeatInPizzaNPelmeni>
   <EnablingPelmeniHediff>Включить эффект от пельменей?</EnablingPelmeniHediff>
   <EnablingSomeMeatInChebupek>Разрешить использование дополнительных видов мяса в чебупеке? Не включать, если у вас нет мода HSK More Content!</EnablingSomeMeatInChebupek>
-  <IgufRaidDays>Дней до возможности рейда И.Г.У.Ф. (Не изменять, если у вас нет мода HSK More Content!):</IgufRaidDays>
+  <IgufRaidDays>Дней до возможности рейда И.Г.У.Ф.:</IgufRaidDays>
   <RestartToApply>Для применения всех параметров требуется перезапуск</RestartToApply>
 
 </LanguageData>

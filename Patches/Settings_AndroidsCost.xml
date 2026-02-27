@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- HSK-RR-Content -->
+
+<Operation Class="XmlExtensions.OptionalPatch">
+    <modId>HSKRRContent.Settings</modId>
+    <key>AndroidsCost</key>
+    <defaultValue>true</defaultValue>
+    
+	<caseTrue>
+		<!-- Base Android costs -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="ChJAndroidPrinter"]/modExtensions/li[@Class="Androids.PawnCrafterProperties"]/costList</xpath>
+			<value>
+				<costList>
+					<RobotParts>50</RobotParts>
+					<Biomatter>1125</Biomatter>
+					<SyntheticFibers>375</SyntheticFibers>
+				</costList>
+			</value>
+		</Operation>
+		
+		<!-- AndroidUpgradeDef -->
+		<!-- Proficency -->
+	
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_FightingModule"]/costList</xpath>
+			<value>
+				<costList>
+					<Microchips>10</Microchips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_MedicalModule"]/costList</xpath>
+			<value>
+				<costList>
+					<Microchips>10</Microchips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_ConstructionModule"]/costList</xpath>
+			<value>
+				<costList>
+					<Microchips>10</Microchips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_CrafterModule"]/costList</xpath>
+			<value>
+				<costList>
+					<Microchips>10</Microchips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_AgriculturalModule"]/costList</xpath>
+			<value>
+				<costList>
+					<Microchips>10</Microchips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_ScienceModule"]/costList</xpath>
+			<value>
+				<costList>
+					<BioMicrochips>5</BioMicrochips><BioMicrochips>5</BioMicrochips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_DiplomacyModule"]/costList</xpath>
+			<value>
+				<costList>
+					<BioMicrochips>5</BioMicrochips>
+				</costList>
+			</value>
+		</Operation>
+		
+		<!-- Physiques -->
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_HulkPhysique"]/costList</xpath>
+			<value>
+				<costList>
+					<Biomatter>200</Biomatter>
+					<AdvMechanism>5</AdvMechanism>			
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_AgilePhysique"]/costList</xpath>
+			<value>
+				<costList>
+					<Biomatter>300</Biomatter>
+					<SyntheticFibers>15</SyntheticFibers>
+				</costList>
+			</value>
+		</Operation>
+		
+		<Operation Class="PatchOperationReplace">
+			<xpath>Defs/Androids.AndroidUpgradeDef[defName="Upgrade_SuperPhysique"]/costList</xpath>
+			<value>
+				<costList>
+					<Biomatter>300</Biomatter>
+					<RobotParts>10</RobotParts>
+				</costList>
+			</value>
+		</Operation>
+    </caseTrue>
+	
+</Operation>
+
+</Patch>

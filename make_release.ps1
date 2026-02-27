@@ -1,4 +1,4 @@
-$version = "1.2.0"
+$version = "1.3.0"
 $releaseNameOldLocal = "HSK-RR-Content_oldlocal"
 $releaseName = "HSK-RR-Content"
 
@@ -52,7 +52,7 @@ Compress-Archive -Path "$tempDir/*" -DestinationPath $zipPathOldLocal -Force
 
 # Удаляем старую локализацию HSK
 $delPath = Join-Path $tempDir $releaseName
-$delPath = Join-Path $delPath "Languages\Russian\DefInjected"
+$delPath = Join-Path $delPath "Languages\Russian\DefInjected\ThingDef"
 Remove-Item $delPath -Recurse -Force
 
 # Архивируем
